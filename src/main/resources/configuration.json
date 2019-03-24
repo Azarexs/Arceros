@@ -1,0 +1,15 @@
+{
+  "sql_class_name": "",
+  "serverName": "",
+  "port": "",
+  "databaseName": "",
+  "user": "",
+  "password": "",
+  "initial_sql_statement": "IF NOT EXISTS CREATE TABLE User_Data (UserId long NOT NULL, Coins long NOT NULL, Exp long NOT NULL)",
+  "retrieve_coins": "SELECT Coins FROM User_Data WHERE UserId=%s",
+  "retrieve_exp": "SELECT Exp FROM User_Data WHERE UserId=%s",
+  "set_coins": "",
+  "set_exp": "",
+  "": "",
+  "": ""
+}
