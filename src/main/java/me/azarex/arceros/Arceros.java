@@ -51,14 +51,6 @@ public class Arceros {
                 .setPrefix("$a");
 
         shardManager.addEventListener(commandBuilder.build());
-
-        swap(Arrays.asList(1, 2, 3, 4), 1, 2);
-    }
-
-    public <T> void swap(List<T> list, int indexOne, int indexTwo) {
-        T temp = list.get(indexOne);
-        list.set(indexOne, list.get(indexTwo));
-        list.set(indexTwo, temp);
     }
 
     private Path handleFiles() {
